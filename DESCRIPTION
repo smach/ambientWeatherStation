@@ -1,0 +1,19 @@
+Package: ambientWeatherStation
+Type: Package
+Title: Import Data From Your Ambient Weather Station Into R
+Version: 0.1.0
+Author: Sharon Machlis
+Maintainer: Sharon Machlis <r4journos@machlis.com>
+Description: This package allows you to get a data frame of weather readings from an Internet-enabled Ambient weather station.
+    You need the MAC address of the weather station as well as an app key and an API key from Ambient. See this package's Setup vignette for more details.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    httr,
+    jsonlite,
+    lubridate
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
