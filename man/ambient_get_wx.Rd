@@ -4,21 +4,24 @@
 \alias{ambient_get_wx}
 \title{Get data from an Ambient weather station}
 \usage{
-ambient_get_wx(n = 1, the_date = Sys.Date(),
+ambient_get_wx(n = 1,
   device_mac_address = Sys.getenv("AMBIENT_MAC_ADDRESS"),
   app_key = Sys.getenv("AMBIENT_APP_KEY"),
-  api_key = Sys.getenv("AMBIENT_API_KEY"))
+  api_key = Sys.getenv("AMBIENT_API_KEY"), time_zone = Sys.timezone(),
+  the_date = "")
 }
 \arguments{
 \item{n}{numeric Integer for how many observations you want returned. Defaults to 1.}
-
-\item{the_date}{Date or character string in yyyy-mm-dd format. Ending date (UTC) for requested observation(s).}
 
 \item{device_mac_address}{character string for device MAC address.}
 
 \item{app_key}{character string with your Ambient application key.}
 
 \item{api_key}{character string with your Ambient API key.}
+
+\item{time_zone}{character string of a TZ database name, such as America/New_York. Defaults to your system's time zone.}
+
+\item{the_date}{Date or character string in yyyy-mm-dd format if you want historical data. Defaults to empty string for most recent data.}
 }
 \value{
 data frame

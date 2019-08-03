@@ -46,4 +46,3 @@ Save the .Renviron file. You will need to restart your R session for those new v
 You should now be ready to run `ambient_get_wx()`!
 
 
-and then save the R environment
