@@ -6,15 +6,13 @@ This package lets you import current or historical data from an Internet-enabled
 * An Internet-enabled Ambient Weather Station
 * The MAC address for that weather station
 * An API key from Ambient Weather
-* An Application key from Ambient Weather
+* An application key from Ambient Weather
 
-To install the package, you can use any R package that allows easy installation via GitHub, such as devtools, remotes, or githubinstall. I like githubinstall because you usually don't need the name of the repo in order to install a package; githubinstall suggests one or more repos.
+To install the package, you can use any R package that allows easy installation via GitHub, such as devtools, remotes, or githubinstall. If using remotes, run
 
-If you'd like to use githubinstall, install it with `install.packages("githubinstall")` and then run
+`remotes::install_github("smach/ambientWeatherStation")`
 
-`githubinstall::githubinstall("ambientWeatherStation")`
-
-You can get keys from the [settings page in your AmbientWeather.net account](https://dashboard.ambientweather.net/account).
+You can get Ambient application and API keys from the [settings page in your AmbientWeather.net account](https://dashboard.ambientweather.net/account).
 
 You may have already located your station's MAC address in order to connect it to the Internet. If not, AmbientWeather.net has instructions for various models. For example, [here are the instructions for the WS-1000 serues](https://ambientweather.net/help/how-do-i-find-my-mac-address-ws-1000-series/).
 
