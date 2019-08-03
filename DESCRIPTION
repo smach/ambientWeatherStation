@@ -6,6 +6,7 @@ Author: Sharon Machlis
 Maintainer: Sharon Machlis <r4journos@machlis.com>
 Description: This package allows you to get a data frame of weather readings from an Internet-enabled Ambient weather station.
     You need the MAC address of the weather station as well as an app key and an API key from Ambient. See this package's Setup vignette for more details.
+    If Setup vignette isn't available, please see https://github.com/smach/ambientWeatherStation
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
