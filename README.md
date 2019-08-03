@@ -1,5 +1,5 @@
 # ambientWeatherStation
-##Import Data From Your Ambient Weather Station Into R
+## Import Data From Your Ambient Weather Station Into R
 
 This package lets you import current or historical data from an Internet-enabled Ambient Weather station into R. It requires:
 
