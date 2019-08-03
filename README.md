@@ -8,9 +8,9 @@ This package lets you import current or historical data from an Internet-enabled
 * An API key from Ambient Weather
 * An application key from Ambient Weather
 
-To install the package, you can use any R package that allows easy installation via GitHub, such as devtools, remotes, or githubinstall. If using remotes, run
+To install the package, you can use any R package that allows easy installation via GitHub, such as devtools, remotes, or githubinstall. If using devtools, run
 
-`remotes::install_github("smach/ambientWeatherStation")`
+`devtools::install_github("smach/ambientWeatherStation", build_vignettes = TRUE)`
 
 You can get Ambient application and API keys from the [settings page in your AmbientWeather.net account](https://dashboard.ambientweather.net/account).
 
