@@ -30,7 +30,7 @@ data frame
 Get data from an Ambient weather station
 }
 \examples{
-#'\dontrun{
+\dontrun{
 ambient_get_wx(6) #for most recent 6 observations
 }
 }
