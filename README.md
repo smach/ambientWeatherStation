@@ -14,7 +14,7 @@ To install the package, you can use any R package that allows easy installation 
 
 You can get Ambient application and API keys from the [settings page in your AmbientWeather.net account](https://dashboard.ambientweather.net/account).
 
-You may have already located your station's MAC address in order to connect it to the Internet. If not, AmbientWeather.net has instructions for various models. For example, [here are the instructions for the WS-1000 serues](https://ambientweather.net/help/how-do-i-find-my-mac-address-ws-1000-series/).
+You may have already located your station's MAC address in order to connect it to the Internet. If not, AmbientWeather.net has instructions for various models. For example, [here are the instructions for the WS-1000 series](https://ambientweather.net/help/how-do-i-find-my-mac-address-ws-1000-series/).
 
 ### Using your MAC address and keys
 

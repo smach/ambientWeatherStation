@@ -11,7 +11,7 @@
 #' @export
 #'
 #' @examples
-#' #'\dontrun{
+#' \dontrun{
 #' ambient_get_wx(6) #for most recent 6 observations
 #' }
 ambient_get_wx <- function(n=1, device_mac_address = Sys.getenv("AMBIENT_MAC_ADDRESS"), app_key = Sys.getenv("AMBIENT_APP_KEY"), api_key = Sys.getenv("AMBIENT_API_KEY"), time_zone = Sys.timezone(), the_date = ""){
